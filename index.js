@@ -18,7 +18,7 @@ const questions = [
   {
     type: 'list',
     name: 'license',
-    message: 'What sections would you like to include in the table of contents',
+    message: 'What license would you like to use?',
     choices: ["MIT", "Apache", "None"],
     
   },
