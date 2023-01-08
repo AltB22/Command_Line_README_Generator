@@ -7,13 +7,13 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
   {
     type: 'input',
-    message: 'What is the README file title?',
+    message: 'What is the name of the project?',
     name: 'title',
   },
   {
     type: 'input',
     message: 'What is the brief project Description?',
-    name: 'Description',
+    name: 'description',
   },
   {
     type: 'list',
