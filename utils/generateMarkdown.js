@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
 }
 function renderDescription(description) {
   if(description){
-  return `${description}`
+  return description
 } else {
   ("")
 }
@@ -29,7 +29,6 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  // renderLicenseBadge();
   return `# ${data.title}
   ## Description
   - ${renderDescription(data.description)}
