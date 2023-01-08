@@ -1,5 +1,5 @@
 # Read Me Generator
-  ## [Description] (#description)
+  ## [Description](#description)
   - Creates a Read Me from Command Line
   ## [Table of Contents] (#table of contents)
   ## [Installation](#installation)
