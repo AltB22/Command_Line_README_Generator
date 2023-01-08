@@ -33,15 +33,15 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
   - ${renderDescription(data.description)}
-  ## [Table of Contents] (#table of contents)
-  ## [Installation](#installation)
-  ## [Usage](#usage)
-  ## [License](#license)
+  ## Table of Contents
+  ## Installation
+  ## Usage
+  ## License
   - ${renderLicenseBadge(data.license)}
   - ${renderLicenseLink(data.license)}
-  ## [Contributing](#contributing)
-  ## [Tests](#tests)
-  ## [Questions](#questions)
+  ## Contributing
+  ## Tests
+  ## Questions
 `;
 }
 
