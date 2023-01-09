@@ -7,56 +7,50 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
   {
     type: 'input',
-    message: 'What is the name of the project?',
     name: 'title',
+    message: 'What is the name of the project?',
   },
   {
     type: 'input',
-    message: 'Please enter a brief description of the project.',
     name: 'description',
+    message: 'Please enter a brief description of the project.',
   },
   {
     type: 'input',
-    message: 'Would you like to include a table of contents?',
     name: 'table of contents',
+    message: 'Would you like to include a table of contents?',
   },
   {
     type: 'input',
-    message: 'What should the user know about installation of the app?',
     name: 'installation',
+    message: 'What should the user know about installation of the app?',
   },
   {
     type: 'input',
-    message: 'What real world problem does the project solve?',
     name: 'usage',
-  },
-  {
-    type: 'input',
-    name: 'license',
-    message: 'Would you like to use a license?',
-    choices: ["Yes", "No"],
-  },
-  // {
-  //   type: 'list',
-  //   name: 'license type',
-  //   message: 'Which of the following licenses would you like to use?',
-  //   choices: ["MIT", "Apache", "None"],
+    message: 'What real world problem does the project solve?',
     
-  // },
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Which type of license would you like to use?',
+    choices: ["MIT", "Apache 2.0", "GNU General Public License 3.0"],
+  },
   {
     type: 'input',
-    message: 'How can a developer contribute to the project?',
     name: 'contributing',
+    message: 'How can a developer contribute to the project?',
   },
   {
     type: 'input',
-    message: 'How can a developer run tests?',
     name: 'tests',
+    message: 'How can a developer run tests?',
   },
   {
     type: 'input',
-    message: 'Who to contact for questions about the project',
     name: 'questions',
+    message: 'Who to contact for questions about the project',
   },
 ];
 

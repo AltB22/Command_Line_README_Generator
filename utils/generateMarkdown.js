@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "Yes"){
+  if (license){
   return `![License](https://img.shields.io/badge/License-${license}-lightblue.svg)`
 } else {
   ("")
@@ -10,15 +10,16 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(license === "Yes") {
-  return `https://choosealicense.com/licenses/mit/`
+  if(license) {
+  return `https://choosealicense.com/licenses/${license}/`
 } else {
   ("")
 }
 
 }
-// function renderDescription(description) {
-//   if(description){
+// function generateTabOfCon(description) {
+//   let tableOfContents = `## Table of Contents`
+//   if(data.installation) {tableOfContents +=`[Installation](installation)`
 //   return description
 // } else {
 //   ("")
@@ -33,7 +34,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
   - ${data.description}
-  ## Table of Contents
+
+   
   ## Installation
   - ${data.installation}
   ## Usage
