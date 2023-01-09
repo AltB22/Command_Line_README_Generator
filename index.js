@@ -12,20 +12,51 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'What is the brief project Description?',
+    message: 'Please enter a brief description of the project.',
     name: 'description',
   },
   {
-    type: 'list',
-    name: 'license',
-    message: 'What license would you like to use?',
-    choices: ["MIT", "Apache", "None"],
-    
+    type: 'input',
+    message: 'Would you like to include a table of contents?',
+    name: 'table of contents',
+  },
+  {
+    type: 'input',
+    message: 'What should the user know about installation of the app?',
+    name: 'installation',
   },
   {
     type: 'input',
     message: 'What real world problem does the project solve?',
-    name: 'Installation',
+    name: 'usage',
+  },
+  {
+    type: 'input',
+    name: 'license',
+    message: 'Would you like to use a license?',
+    choices: ["Yes", "No"],
+  },
+  // {
+  //   type: 'list',
+  //   name: 'license type',
+  //   message: 'Which of the following licenses would you like to use?',
+  //   choices: ["MIT", "Apache", "None"],
+    
+  // },
+  {
+    type: 'input',
+    message: 'How can a developer contribute to the project?',
+    name: 'contributing',
+  },
+  {
+    type: 'input',
+    message: 'How can a developer run tests?',
+    name: 'tests',
+  },
+  {
+    type: 'input',
+    message: 'Who to contact for questions about the project',
+    name: 'questions',
   },
 ];
 
