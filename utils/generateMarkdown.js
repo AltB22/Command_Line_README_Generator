@@ -51,15 +51,15 @@ function generateMarkdown(data) {
   - ${data.installation}
   ## Usage
   - ${data.usage}
-  ## License
-  - ${renderLicenseLink(data.license)}
-  - ${renderLicenseSection(data.license)}
   ## Contributing
   - ${data.contributing}
   ## Tests
   - ${data.tests}
   ## Questions
   - ${data.questions}
+  ## License
+  - this application utilizes the ${renderLicenseBadge(data.license)}\n
+  - For more information, please visit ${renderLicenseSection(data.license)}\n
 `;
 }
 

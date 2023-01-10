@@ -1,8 +1,8 @@
-# Command_Line_README_Generator    
-  ![License](https://img.shields.io/badge/License-MIT-lightblue.svg)
+# [License]    
+  ![License](https://img.shields.io/badge/License-mit-lightblue.svg)
 
   ## Description
-  - Command_Line_README_Generator
+  - [License]
   ## Table of Contents
   [Installation](#installation)
 
@@ -17,15 +17,17 @@
   [Questions](#questions)
 
   ## Installation
-  - Command_Line_README_Generator
+  - [License]
   ## Usage
-  - Command_Line_README_Generator
-  ## License
-  - https://choosealicense.com/licenses/MIT/
-  - https://choosealicense.com/licenses/MIT/
+  - [License]
   ## Contributing
-  - Command_Line_README_Generator
+  - [License]
   ## Tests
-  - Command_Line_README_GeneratorCommand_Line_README_Generator
+  - [License]
   ## Questions
-  - Command_Line_README_Generator
+  - [License]
+  ## License
+  - this application utilizes the ![License](https://img.shields.io/badge/License-mit-lightblue.svg)
+
+  - For more information, please visit https://choosealicense.com/licenses/mit/
+
