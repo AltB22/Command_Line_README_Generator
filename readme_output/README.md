@@ -1,25 +1,33 @@
-# Command Line ReadMe Generator
+# Command_Line_README_Generator
+  
   ## Description
-  - Command Line ReadMe Generator
+  - Command_Line_README_Generator
+  
   ## Table of Contents
   [Installation](#installation)
+
   [Usage](#usage)
-  [License]](#license)
+
+  [License](#license)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+
   [Questions](#questions)
 
+
   ## Installation
-  - Node, inquirer, CLI
+  - Command_Line_README_Generator
   ## Usage
-  - Generates a Readme from the command line
+  - Command_Line_README_Generator
   ## License
-   ![License](https://img.shields.io/badge/License-MIT-lightblue.svg)
-  - https://choosealicense.com/licenses/MIT/
-  - https://choosealicense.com/licenses/MIT/
+  - ![License](https://img.shields.io/badge/License-MIT License-lightblue.svg)
+  - https://choosealicense.com/licenses/MIT License/
+  - https://choosealicense.com/licenses/MIT License/
   ## Contributing
-  - Contribute
+  - Command_Line_README_Generator
   ## Tests
-  - TesT
+  - Command_Line_README_Generator
   ## Questions
-  - Me
+  - Command_Line_README_Generator

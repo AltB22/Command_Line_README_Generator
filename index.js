@@ -15,11 +15,11 @@ const questions = [
     name: 'description',
     message: 'Please enter a brief description of the project.',
   },
-  {
-    type: 'input',
-    name: 'table of contents',
-    message: 'Would you like to include a table of contents?',
-  },
+  // {
+  //   type: 'input',
+  //   name: 'table of contents',
+  //   message: 'Would you like to include a table of contents?',
+  // },
   {
     type: 'input',
     name: 'installation',
@@ -35,7 +35,21 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Which type of license would you like to use?',
-    choices: ["MIT", "Apache 2.0", "GNU General Public License 3.0"],
+    choices: ["MIT License", "Apache 2.0", "GNU General Public License 3.0", "The Unlicense"],
+    // validate: input => {
+    //   if (input) {
+    //     return true;
+    //   } else {
+    //     console.log('Please choose a license.')
+    //     return false;
+    //   }
+    // }
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'What real world problem does the project solve?',
+    
   },
   {
     type: 'input',
@@ -52,11 +66,16 @@ const questions = [
     name: 'questions',
     message: 'Who to contact for questions about the project',
   },
+  {
+    type: 'input',
+    name: 'git hub',
+    message: 'Please enter your GitHub user name',
+  },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(answers) { 
-  const createReadMe = generateMarkdown(answers) 
+  const createReadMe = generateMarkdown(answers)
   console.log(createReadMe)
   fs.writeFile('./readme_output/README.md', createReadMe
   ,(error) => {
