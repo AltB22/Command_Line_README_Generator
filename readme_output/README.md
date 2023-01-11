@@ -1,8 +1,8 @@
-# [License]    
-  ![License](https://img.shields.io/badge/License-mit-lightblue.svg)
+# Command_Line_README_Generator    
+  [![License site](https://img.shields.io/badge/License-mit-lightblue.svg)](https://choosealicense.com/licenses/mit/)
 
   ## Description
-  - [License]
+  - Command_Line_README_Generator
   ## Table of Contents
   [Installation](#installation)
 
@@ -17,17 +17,15 @@
   [Questions](#questions)
 
   ## Installation
-  - [License]
+  - Command_Line_README_Generator
   ## Usage
-  - [License]
+  - Command_Line_README_Generator
   ## Contributing
-  - [License]
+  - Command_Line_README_Generator
   ## Tests
-  - [License]
+  - Command_Line_README_Generator
   ## Questions
-  - [License]
+  - Please visit my GitHub profile for further information about his project (https://github.com/AltB22)
+  - Please email massie.w@gmail.com with additional quesitons.
   ## License
-  - this application utilizes the ![License](https://img.shields.io/badge/License-mit-lightblue.svg)
-
-  - For more information, please visit https://choosealicense.com/licenses/mit/
-
+  - This application is covered under the [![License site](https://img.shields.io/badge/License-mit-lightblue.svg)](https://choosealicense.com/licenses/mit/)

@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license){
-  return `![License](https://img.shields.io/badge/License-${license}-lightblue.svg)`
+  return `[![License site](https://img.shields.io/badge/License-${license}-lightblue.svg)](https://choosealicense.com/licenses/mit/)`
 } else {
   ("")
 }
@@ -56,11 +56,11 @@ function generateMarkdown(data) {
   ## Tests
   - ${data.tests}
   ## Questions
-  - ${data.questions}
+  - Please visit my GitHub profile for further information about his project (https://github.com/${data.github})
+  - Please email ${data.questions} with additional quesitons.
   ## License
-  - this application utilizes the ${renderLicenseBadge(data.license)}\n
-  - For more information, please visit ${renderLicenseSection(data.license)}\n
-`;
+  - This application is covered under the ${renderLicenseBadge(data.license)}`//[![License site](https://img.shields.io/badge/License-${data.license}-lightblue.svg)](https://choosealicense.com/licenses/mit/)`
+;
 }
 
 module.exports = generateMarkdown;
