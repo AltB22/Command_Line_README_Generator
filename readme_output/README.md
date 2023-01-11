@@ -1,5 +1,5 @@
 # Command_Line_README_Generator    
-  [![License site](https://img.shields.io/badge/License-mit-lightblue.svg)](https://choosealicense.com/licenses/mit/)
+  [![License site](https://img.shields.io/badge/License-GNU_3.0-blue.svg)](https://choosealicense.com/licenses/gpl-3.0)
 
   ## Description
   - Command_Line_README_Generator
@@ -25,7 +25,7 @@
   ## Tests
   - Command_Line_README_Generator
   ## Questions
-  - Please visit my GitHub profile for further information about his project (https://github.com/AltB22)
-  - Please email massie.w@gmail.com with additional quesitons.
+  - Please visit my GitHub profile for further information about his project (https://github.com/Command_Line_README_Generator)
+  - Please email Command_Line_README_Generator with additional quesitons.
   ## License
-  - This application is covered under the [![License site](https://img.shields.io/badge/License-mit-lightblue.svg)](https://choosealicense.com/licenses/mit/)
+  - This application is covered under the [![License site](https://img.shields.io/badge/License-GNU_3.0-blue.svg)](https://choosealicense.com/licenses/gpl-3.0)

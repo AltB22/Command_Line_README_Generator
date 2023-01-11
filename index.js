@@ -35,7 +35,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Which type of license would you like to use?',
-    choices: ["mit", "Apache_2.0", "GNU_General_Public_License_3.0", "The_Unlicense"],
+    choices: ["MIT", "Apache_2.0", "GNU_3.0"],
     // validate: input => {
     //   if (input) {
     //     return true;
