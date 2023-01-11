@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-//function converts the data license data provided by the user into the format needed to render its respective badge properly and also embed a link in each badge.  I had to make a choice to either hard code a portion of it or continue code to make additional conversions.  Opted to hard code apache-2.0 and gpl-3.0 into the links and use template literal to pass in the user input that works for the badge.  MIT converts license to mit which works for the link and the badge.  I'm aware this is not an ideal solution for scaling but it satisfies the criteria for this project.  Did this to create better user experience when selecting badge type in the CL.
+//function converts the data license data provided by the user into the format needed to render its respective badge properly and also embed a link in each badge.  I had to make a choice to either hard code a portion of it or continue code to make additional conversions.  Opted to hard code apache-2.0 and gpl-3.0 into the links and use template literal to pass in the user input that works for the badge.  MIT converts license to mit which works for the link and the badge.  I'm aware this is not an ideal solution for scaling but it satisfies the criteria for this project.  Did this to create better user experience when selecting badge type in the CL. ex: mit vs MIT in the command line.
 function renderLicenseBadge(license) {
   if (license === "MIT"){ 
     license = "mit"
