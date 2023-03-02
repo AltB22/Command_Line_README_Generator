@@ -79,8 +79,8 @@ function generateMarkdown(data) {
   ## Questions
   - Please visit my GitHub profile for further information about his project (https://github.com/${data.github})
   - Please email ${data.questions} with additional quesitons.
-  ${renderLicenseSection(data.license)}\n
-  ${renderLicenseBadge(data.license)}\n
+  - ${renderLicenseSection(data.license)}\n
+  - ${renderLicenseBadge(data.license)}\n
   `
 ;
 }
